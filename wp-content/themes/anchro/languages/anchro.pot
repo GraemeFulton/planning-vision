@@ -1,0 +1,1535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-16 18:55-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "BACK HOME"
+msgstr ""
+
+#: comments.php:10
+msgid "Enter the password to view comments."
+msgstr ""
+
+#: comments.php:57
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:57
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:61 comments.php:98
+msgid "You are not signed in."
+msgstr ""
+
+#: comments.php:61 comments.php:98
+msgid "Sign in"
+msgstr ""
+
+#: comments.php:61 comments.php:98
+msgid "to post comments."
+msgstr ""
+
+#: comments.php:104
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:109
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:109
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:109
+msgid "Log out"
+msgstr ""
+
+#: comments.php:121
+msgid "Your name here..."
+msgstr ""
+
+#: comments.php:125
+msgid "Your email here..."
+msgstr ""
+
+#: comments.php:129
+msgid "Subject..."
+msgstr ""
+
+#: comments.php:136
+msgid "Your message here..."
+msgstr ""
+
+#: comments.php:140
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:162
+msgid "Comments are closed"
+msgstr ""
+
+#: functions.php:39 functions.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:185
+msgid "Content in Main-Background:"
+msgstr ""
+
+#: functions.php:193
+msgid "Description(below title)"
+msgstr ""
+
+#: functions.php:197
+msgid "Custom Header Background Img url"
+msgstr ""
+
+#: functions.php:215
+msgid "Description"
+msgstr ""
+
+#: functions.php:238
+msgid "Description Post(in banner)"
+msgstr ""
+
+#: functions.php:242
+msgid "Subtitle Post(in post)"
+msgstr ""
+
+#: functions.php:299
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:503
+msgid "Reply"
+msgstr ""
+
+#: functions.php:537
+msgid "Default sidebar"
+msgstr ""
+
+#: functions.php:548
+msgid "Left Hide sidebar"
+msgstr ""
+
+#: functions.php:560
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:571
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:582
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:684
+msgid "ShortcodesDex"
+msgstr ""
+
+#: functions.php:692
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:696
+msgid "mailchimp-for-wp"
+msgstr ""
+
+#: functions.php:700
+msgid "Visual composer"
+msgstr ""
+
+#: page-full-width.php:64 page.php:67 single-portfolio.php:39 single.php:96
+#: template-blog-classic.php:104 template-blog-grid.php:118
+msgid "Pages:"
+msgstr ""
+
+#: single.php:89 template-blog-classic.php:93 template-blog-grid.php:108
+#: include/blog_embed.php:39 include/blog_embed.php:66
+#: widgets/gallery-slider.php:81 widgets/gallery-sliderb.php:86
+msgid "F j, Y"
+msgstr ""
+
+#: single.php:109
+msgid "Prev Post"
+msgstr ""
+
+#: single.php:118
+msgid "Next Post"
+msgstr ""
+
+#: template-blog-classic.php:118 template-blog-grid.php:135
+msgid "No Posts Found."
+msgstr ""
+
+#: template-blog-grid.php:124
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/options/option.php:9
+msgid "anchro Option Panel"
+msgstr ""
+
+#: framework/options/option.php:13
+msgid "General Settings"
+msgstr ""
+
+#: framework/options/option.php:18
+msgid "Logo"
+msgstr ""
+
+#: framework/options/option.php:25
+msgid "Logo A image"
+msgstr ""
+
+#: framework/options/option.php:26
+msgid "Upload your own logo (for dark background)."
+msgstr ""
+
+#: framework/options/option.php:31
+msgid "Logo B image"
+msgstr ""
+
+#: framework/options/option.php:32
+msgid "Upload your own logo (for white background)."
+msgstr ""
+
+#: framework/options/option.php:37
+msgid "Alternative Logo A Image (Retina Version)"
+msgstr ""
+
+#: framework/options/option.php:38
+msgid ""
+"Please name your file following the  (e.g. logo_black.png) with a suffix @2x "
+"(e.g. logo_black@2x.png)"
+msgstr ""
+
+#: framework/options/option.php:42
+msgid "Alternative Logo B Image (Retina Version)"
+msgstr ""
+
+#: framework/options/option.php:43
+msgid ""
+"Please name your file following the  (e.g. logo_white.png) with a suffix @2x "
+"(e.g. logo_white@2x.png)"
+msgstr ""
+
+#: framework/options/option.php:47 framework/options/option.php:48
+msgid "Logo for this admin pagel"
+msgstr ""
+
+#: framework/options/option.php:54
+msgid "General"
+msgstr ""
+
+#: framework/options/option.php:61
+msgid "Responsive/mobile design"
+msgstr ""
+
+#: framework/options/option.php:62
+msgid ""
+"Enable this to adapt your page to differents screen sizes(mobile, tablet, "
+"desktop, etc)."
+msgstr ""
+
+#: framework/options/option.php:68
+msgid "Feedburner URL"
+msgstr ""
+
+#: framework/options/option.php:69
+msgid ""
+"Enter your full FeedBurner URL to replace the default feed URL by Wordpress."
+msgstr ""
+
+#: framework/options/option.php:75
+msgid "404 Page"
+msgstr ""
+
+#: framework/options/option.php:83
+msgid "Text in 404 page"
+msgstr ""
+
+#: framework/options/option.php:89
+msgid "Background image for the 404 page"
+msgstr ""
+
+#: framework/options/option.php:90
+msgid "Background image for the 404 page(1400 x 180 px)"
+msgstr ""
+
+#: framework/options/option.php:101
+msgid "Header"
+msgstr ""
+
+#: framework/options/option.php:107
+msgid "General header Background"
+msgstr ""
+
+#: framework/options/option.php:108
+msgid ""
+"Upload a image for the general background in header, (2048 x 860 px or "
+"similar proportion)."
+msgstr ""
+
+#: framework/options/option.php:113
+msgid "Background color (if not background image)"
+msgstr ""
+
+#: framework/options/option.php:114
+msgid ""
+"Choose the general color background in header, (if not background image)."
+msgstr ""
+
+#: framework/options/option.php:119
+msgid "Show Search icon in top"
+msgstr ""
+
+#: framework/options/option.php:120
+msgid "Show Search icon in top next to social icons."
+msgstr ""
+
+#: framework/options/option.php:125
+msgid "Placeholder label in serarch top box"
+msgstr ""
+
+#: framework/options/option.php:126
+msgid "Placeholder label in serarch top box."
+msgstr ""
+
+#: framework/options/option.php:136
+msgid "Labels"
+msgstr ""
+
+#: framework/options/option.php:142
+msgid "Blog label"
+msgstr ""
+
+#: framework/options/option.php:147 framework/options/option.php:148
+msgid "Blog Description"
+msgstr ""
+
+#: framework/options/option.php:153
+#, php-format
+msgid "%s is for the category name"
+msgstr ""
+
+#: framework/options/option.php:154
+msgid "Post Category Archive Title"
+msgstr ""
+
+#: framework/options/option.php:160
+#, php-format
+msgid "%s is for the tag name"
+msgstr ""
+
+#: framework/options/option.php:161
+msgid "Post Tag Archive Title"
+msgstr ""
+
+#: framework/options/option.php:167
+#, php-format
+msgid "%s is for the year"
+msgstr ""
+
+#: framework/options/option.php:168
+msgid "Yearly Archive Title"
+msgstr ""
+
+#: framework/options/option.php:174
+#, php-format
+msgid "%s is for the month"
+msgstr ""
+
+#: framework/options/option.php:175
+msgid "Monthly Archive Title"
+msgstr ""
+
+#: framework/options/option.php:181
+#, php-format
+msgid "%s is for the day"
+msgstr ""
+
+#: framework/options/option.php:182
+msgid "Daily Archive Title"
+msgstr ""
+
+#: framework/options/option.php:188
+#, php-format
+msgid "First %s is for total results found, the second %s is for the query"
+msgstr ""
+
+#: framework/options/option.php:189
+msgid "Search Result Title"
+msgstr ""
+
+#: framework/options/option.php:194
+msgid "Placeholder for the search form in the top bar."
+msgstr ""
+
+#: framework/options/option.php:195
+msgid "Search form top placeholder"
+msgstr ""
+
+#: framework/options/option.php:200
+msgid "Read more label for excerpts in blog/archive."
+msgstr ""
+
+#: framework/options/option.php:201
+msgid "Read more label"
+msgstr ""
+
+#: framework/options/option.php:206
+msgid "Sticky label at side of the title post in blog/archive."
+msgstr ""
+
+#: framework/options/option.php:207
+msgid "Sticky label"
+msgstr ""
+
+#: framework/options/option.php:212
+#, php-format
+msgid ""
+"Label title for categories of custom posts. the %s is for the category name "
+"of the custom posts"
+msgstr ""
+
+#: framework/options/option.php:213
+msgid "Label categories of support posts"
+msgstr ""
+
+#: framework/options/option.php:218
+msgid "Label title for Portfolio custom post - Archive"
+msgstr ""
+
+#: framework/options/option.php:219
+msgid "Label title for Portfolio Archive"
+msgstr ""
+
+#: framework/options/option.php:224
+msgid "Title for Untitled Posts in blog/archive."
+msgstr ""
+
+#: framework/options/option.php:225
+msgid "Title for Untitled posts"
+msgstr ""
+
+#: framework/options/option.php:233
+msgid "Blog/Archive Settings"
+msgstr ""
+
+#: framework/options/option.php:239
+msgid "Word Limit Excerpt Classic"
+msgstr ""
+
+#: framework/options/option.php:240 framework/options/option.php:246
+msgid "Set a limit number of words for each excerpt in blog."
+msgstr ""
+
+#: framework/options/option.php:245
+msgid "Word Limit Excerpt Grid"
+msgstr ""
+
+#: framework/options/option.php:251 framework/options/option.php:298
+msgid "Show Post Thumbnail automaticaly"
+msgstr ""
+
+#: framework/options/option.php:252 framework/options/option.php:299
+msgid "Show Post Thumbnail automaticaly."
+msgstr ""
+
+#: framework/options/option.php:257
+msgid "Blog/archive Style:"
+msgstr ""
+
+#: framework/options/option.php:258
+msgid "Blog/archive Style "
+msgstr ""
+
+#: framework/options/option.php:262
+msgid "Classic"
+msgstr ""
+
+#: framework/options/option.php:266
+msgid "Grid"
+msgstr ""
+
+#: framework/options/option.php:274
+msgid "Disable double column in some widgets"
+msgstr ""
+
+#: framework/options/option.php:276
+msgid "disable double column in some widgets (only in widgets type lists.)"
+msgstr ""
+
+#: framework/options/option.php:288
+msgid "Single Post/Page"
+msgstr ""
+
+#: framework/options/option.php:293
+msgid "Posts"
+msgstr ""
+
+#: framework/options/option.php:304
+msgid "Show title if there is not subtitle in single posts."
+msgstr ""
+
+#: framework/options/option.php:305
+msgid "Show post title if there is not subtitle"
+msgstr ""
+
+#: framework/options/option.php:310
+msgid "Show category in meta posts."
+msgstr ""
+
+#: framework/options/option.php:311
+msgid "Show category in meta posts"
+msgstr ""
+
+#: framework/options/option.php:316
+msgid "Show tag in meta posts."
+msgstr ""
+
+#: framework/options/option.php:317
+msgid "Show tag in meta posts"
+msgstr ""
+
+#: framework/options/option.php:323
+msgid "Pages"
+msgstr ""
+
+#: framework/options/option.php:328
+msgid "Show Social Icons In Pages"
+msgstr ""
+
+#: framework/options/option.php:329
+msgid "Show Social Icons In Pages."
+msgstr ""
+
+#: framework/options/option.php:335
+msgid "Hide Comments section in Page"
+msgstr ""
+
+#: framework/options/option.php:336
+msgid "turn on if you want to Hide comments in pages."
+msgstr ""
+
+#: framework/options/option.php:346
+msgid "Share Post"
+msgstr ""
+
+#: framework/options/option.php:350
+msgid "Facebook"
+msgstr ""
+
+#: framework/options/option.php:355
+msgid "Twitter"
+msgstr ""
+
+#: framework/options/option.php:360
+msgid "Linkedin"
+msgstr ""
+
+#: framework/options/option.php:365
+msgid "Pinterest"
+msgstr ""
+
+#: framework/options/option.php:370
+msgid "GooglePlus"
+msgstr ""
+
+#: framework/options/option.php:375
+msgid "Reddit"
+msgstr ""
+
+#: framework/options/option.php:380
+msgid "Mail"
+msgstr ""
+
+#: framework/options/option.php:385
+msgid "Tumblr"
+msgstr ""
+
+#: framework/options/option.php:396
+msgid "Banner below pages"
+msgstr ""
+
+#: framework/options/option.php:402
+msgid "Show Action Banner Below blogs"
+msgstr ""
+
+#: framework/options/option.php:407
+msgid "Show Action Banner Below Pages(default template)"
+msgstr ""
+
+#: framework/options/option.php:412
+msgid "Show Action Banner Below posts"
+msgstr ""
+
+#: framework/options/option.php:417
+msgid "Show Action Banner Below Page(full width template)"
+msgstr ""
+
+#: framework/options/option.php:422
+msgid "Show Action Banner Below Portfolio Items"
+msgstr ""
+
+#: framework/options/option.php:427
+msgid "Image Background Banner"
+msgstr ""
+
+#: framework/options/option.php:432
+msgid "Content Banner"
+msgstr ""
+
+#: framework/options/option.php:433
+msgid "Text for banner below post/pages ."
+msgstr ""
+
+#: framework/options/option.php:444
+msgid "Footer"
+msgstr ""
+
+#: framework/options/option.php:450
+msgid "Copyrights"
+msgstr ""
+
+#: framework/options/option.php:456
+msgid "Width footer widget 1"
+msgstr ""
+
+#: framework/options/option.php:465
+msgid "Width footer widget 2"
+msgstr ""
+
+#: framework/options/option.php:474
+msgid "Width footer widget 3"
+msgstr ""
+
+#: framework/options/option.php:484
+msgid "Custom Codes"
+msgstr ""
+
+#: framework/options/option.php:491
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/options/option.php:492
+msgid "Write your custom css here."
+msgstr ""
+
+#: framework/options/option.php:499
+msgid "Custom JavaScript"
+msgstr ""
+
+#: framework/options/option.php:500
+msgid "Write your custom js here."
+msgstr ""
+
+#: framework/vafpress/bootstrap.php:89
+#: framework/vafpress/classes/option.php:364
+#: framework/vafpress/classes/option.php:389
+msgid "Successful"
+msgstr ""
+
+#: framework/vafpress/bootstrap.php:100
+msgid "Unauthorized function"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:47
+#: framework/vafpress/classes/option.php:48
+msgid "Vafpress Options"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:61
+msgid "Option Key is required"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:63
+msgid "Template Array/File is required"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:65
+msgid "Page Slug is required"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:167
+msgid ""
+"Development Mode is Active, options' values won't be saved into database."
+msgstr ""
+
+#: framework/vafpress/classes/option.php:306
+msgid "Can not be empty"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:331
+msgid "Invalid data"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:394
+msgid "Unverified Access"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:460
+msgid "Invalid template supplied"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:473
+msgid "Utility"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:479
+#: framework/vafpress/views/option/restore.php:13
+msgid "Restore Default"
+msgstr ""
+
+#: framework/vafpress/classes/option.php:488
+msgid "Export/Import"
+msgstr ""
+
+#: framework/vafpress/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr ""
+
+#: framework/vafpress/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr ""
+
+#: framework/vafpress/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:22
+msgid "This is required"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr ""
+
+#: framework/vafpress/config/messages.php:30
+msgid "Import failed"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:32
+msgid "Export failed"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr ""
+
+#: framework/vafpress/config/messages.php:34
+msgid "Options identical to default"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:35
+msgid "Restoration failed"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:43
+msgid "Select option(s)"
+msgstr ""
+
+#: framework/vafpress/config/messages.php:45
+msgid "Select an Icon"
+msgstr ""
+
+#: framework/vafpress/views/control/slider.php:3
+msgid "Range between"
+msgstr ""
+
+#: framework/vafpress/views/control/upload.php:5
+msgid "Choose File"
+msgstr ""
+
+#: framework/vafpress/views/option/impexp.php:4
+#: framework/vafpress/views/option/impexp.php:14
+msgid "Import"
+msgstr ""
+
+#: framework/vafpress/views/option/impexp.php:7
+msgid "Import Options"
+msgstr ""
+
+#: framework/vafpress/views/option/impexp.php:27
+#: framework/vafpress/views/option/impexp.php:37
+msgid "Export"
+msgstr ""
+
+#: framework/vafpress/views/option/impexp.php:30
+msgid "Export Options"
+msgstr ""
+
+#: framework/vafpress/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr ""
+
+#: framework/vafpress/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr ""
+
+#: framework/vafpress/views/option/restore.php:14
+msgid ""
+"** Please make sure you have already make a backup data of your current "
+"settings. Once you click this button, your current settings will be gone."
+msgstr ""
+
+#: framework/vafpress/views/option/set.php:69
+#: framework/vafpress/views/option/set.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: framework/vafpress/views/option/set.php:70
+#: framework/vafpress/views/option/set.php:85
+msgid "Saving Now"
+msgstr ""
+
+#: framework/vafpress/views/option/set.php:93
+msgid "Powered by Vafpress"
+msgstr ""
+
+#: include/blog_embed.php:87 include/projects_carousel.php:61
+#: include/projects_carousel.php:150
+msgid "No Posts Founds."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:393
+#: include/class-tgm-plugin-activation.php:920
+#: include/class-tgm-plugin-activation.php:2626
+#: include/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:394
+#: include/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:395
+#: include/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:1027
+#: include/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:1214
+#: include/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3602
+#: include/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3602
+#: include/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: include/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/helper.php:14
+#, php-format
+msgid "%s's Posts"
+msgstr ""
+
+#: include/helper.php:23
+#, php-format
+msgid "Archive post: %s"
+msgstr ""
+
+#: include/projects_carousel.php:138
+msgid "uncategorized"
+msgstr ""
+
+#: widgets/about-us.php:18
+msgid "(theme)About us + image"
+msgstr ""
+
+#: widgets/about-us.php:71 widgets/contact.php:164
+#: widgets/gallery-slider.php:118 widgets/gallery-sliderb.php:123
+#: widgets/popular-post.php:91 widgets/recent-post.php:97
+#: widgets/social-icons.php:150
+msgid "Title:"
+msgstr ""
+
+#: widgets/about-us.php:76
+msgid "Logo url:"
+msgstr ""
+
+#: widgets/about-us.php:81
+msgid "Text About:"
+msgstr ""
+
+#: widgets/contact.php:18
+msgid "(theme)Contact Info"
+msgstr ""
+
+#: widgets/contact.php:143
+msgid "CONTACT INFO"
+msgstr ""
+
+#: widgets/contact.php:145
+msgid "title 1"
+msgstr ""
+
+#: widgets/contact.php:146
+msgid "title 2"
+msgstr ""
+
+#: widgets/contact.php:147
+msgid "title 3"
+msgstr ""
+
+#: widgets/contact.php:148
+msgid "title 4"
+msgstr ""
+
+#: widgets/contact.php:152
+msgid "detail 1"
+msgstr ""
+
+#: widgets/contact.php:153
+msgid "detail 2"
+msgstr ""
+
+#: widgets/contact.php:154
+msgid "detail 3"
+msgstr ""
+
+#: widgets/contact.php:155
+msgid "detail 4"
+msgstr ""
+
+#: widgets/contact.php:169
+msgid "info:"
+msgstr ""
+
+#: widgets/contact.php:174
+msgid "Contact title 1:"
+msgstr ""
+
+#: widgets/contact.php:179
+msgid "Contact detail 1:"
+msgstr ""
+
+#: widgets/contact.php:184
+msgid "Contact title 2:"
+msgstr ""
+
+#: widgets/contact.php:189
+msgid "Contact detail 2:"
+msgstr ""
+
+#: widgets/contact.php:194
+msgid "Contact title 3:"
+msgstr ""
+
+#: widgets/contact.php:199
+msgid "Contact detail 3:"
+msgstr ""
+
+#: widgets/contact.php:204
+msgid "Contact title 4:"
+msgstr ""
+
+#: widgets/contact.php:209
+msgid "Contact detail 4:"
+msgstr ""
+
+#: widgets/contact.php:214
+msgid "Contact title 5:"
+msgstr ""
+
+#: widgets/contact.php:219
+msgid "Contact detail 5:"
+msgstr ""
+
+#: widgets/contact.php:225
+msgid "Contact title 6:"
+msgstr ""
+
+#: widgets/contact.php:230
+msgid "Contact detail 6:"
+msgstr ""
+
+#: widgets/contact.php:235
+msgid "Contact title 7:"
+msgstr ""
+
+#: widgets/contact.php:240
+msgid "Contact detail 7:"
+msgstr ""
+
+#: widgets/gallery-slider.php:18
+msgid "(theme)Portfolio Slider"
+msgstr ""
+
+#: widgets/gallery-slider.php:123
+msgid "Label:"
+msgstr ""
+
+#: widgets/gallery-slider.php:128 widgets/gallery-sliderb.php:128
+#: widgets/popular-post.php:106 widgets/recent-post.php:102
+msgid "Number of items to show:"
+msgstr ""
+
+#: widgets/gallery-slider.php:134 widgets/gallery-sliderb.php:139
+#: widgets/recent-post.php:108
+msgid "Random Ordered"
+msgstr ""
+
+#: widgets/gallery-sliderb.php:18
+msgid "(theme)Posts Slider"
+msgstr ""
+
+#: widgets/gallery-sliderb.php:133
+msgid "Category posts (id):"
+msgstr ""
+
+#: widgets/popular-post.php:18
+msgid "(theme)Popular Post Thumbnail"
+msgstr ""
+
+#: widgets/popular-post.php:87
+msgid "Popular Posts"
+msgstr ""
+
+#: widgets/popular-post.php:97
+msgid "Popular Posts Order By:"
+msgstr ""
+
+#: widgets/popular-post.php:99
+msgid "Highest Comments"
+msgstr ""
+
+#: widgets/popular-post.php:100
+msgid "Highest Views"
+msgstr ""
+
+#: widgets/recent-post.php:18
+msgid "(theme)Recent Post Thumbnail"
+msgstr ""
+
+#: widgets/social-icons.php:18
+msgid "(theme)Social Icons"
+msgstr ""
+
+#: widgets/social-icons.php:145
+msgid "CONNECT WITH US"
+msgstr ""
+
+#: widgets/social-icons.php:155
+msgid "Twitter link:"
+msgstr ""
+
+#: widgets/social-icons.php:160
+msgid "Facebook link:"
+msgstr ""
+
+#: widgets/social-icons.php:165
+msgid "Linkedin link:"
+msgstr ""
+
+#: widgets/social-icons.php:170
+msgid "Dribbble link:"
+msgstr ""
+
+#: widgets/social-icons.php:175
+msgid "flickr:"
+msgstr ""
+
+#: widgets/social-icons.php:181
+msgid "Tumblr:"
+msgstr ""
+
+#: widgets/social-icons.php:186
+msgid "Youtube:"
+msgstr ""
+
+#: widgets/social-icons.php:191
+msgid "Google Plus link:"
+msgstr ""
+
+#: widgets/social-icons.php:195
+msgid "mail:"
+msgstr ""
+
+#: widgets/social-icons.php:200
+msgid "Pinterest link:"
+msgstr ""
+
+#: widgets/social-icons.php:204
+msgid "Vimeo:"
+msgstr ""
+
+#: widgets/social-icons.php:209
+msgid "vk:"
+msgstr ""
+
+#: widgets/social-icons.php:213
+msgid "behance:"
+msgstr ""
+
+#: widgets/social-icons.php:218
+msgid "instagram:"
+msgstr ""

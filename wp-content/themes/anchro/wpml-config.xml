@@ -1,0 +1,38 @@
+<wpml-config>	
+    <custom-fields>
+        <custom-field action="translate">background_text</custom-field>
+        <custom-field action="translate">details</custom-field>
+        <custom-field action="translate">subtitle_post</custom-field>
+		<custom-field action="translate">desc_post</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>    
+    <taxonomies>       
+    </taxonomies>
+    <admin-texts>
+		<key name="e_option">
+			<!-- Site Strings -->
+			<key name="404_text" />
+			<key name="search_top_label" />
+			<key name="label_blog" />
+			<key name="blog_desc" />
+			<key name="label_category" />
+			<key name="label_tag" />
+			<key name="label_time_year" />
+			<key name="label_time_month" />
+			<key name="label_time_day" />
+			<key name="label_search" />
+			<key name="label_search_p" />
+			<key name="read_more_label" />
+			<key name="sticky_label" />
+			<key name="portfolio_categories_label" />
+			<key name="portfolio_archive_title" />
+			<key name="untitled" />
+			<key name="banner_in_blog_content" />
+			<key name="copyrights" />			
+		</key>
+    </admin-texts>
+</wpml-config>
+
+
