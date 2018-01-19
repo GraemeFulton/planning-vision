@@ -1,10 +1,10 @@
-<?php 
+<?php
 require_once get_template_directory().'/framework/vafpress/bootstrap.php';
 /**
  * Loading widgets
  */
-include get_template_directory().('/widgets/recent-post.php');	
-include get_template_directory().('/widgets/popular-post.php');	
+include get_template_directory().('/widgets/recent-post.php');
+include get_template_directory().('/widgets/popular-post.php');
 include get_template_directory().('/widgets/gallery-slider.php');
 include get_template_directory().('/widgets/gallery-sliderb.php');
 include get_template_directory().'/widgets/about-us.php';
@@ -28,12 +28,12 @@ global $theme_options;
         'option_key'            => 'anchro_option',
         'page_slug'             => 'anchro_option',
         'template'              => $anchro_option_path,
-        'menu_page'             => array(								
+        'menu_page'             => array(
 									'position' => '100.4',
 								),
         'use_auto_group_naming' => true,
         'use_exim_menu'         => false,
-		'use_util_menu'         => true,    
+		'use_util_menu'         => true,
         'minimum_role'          => 'edit_theme_options',
         'layout'                => 'fixed',
         'page_title'            => esc_html__( 'Theme Options', 'anchro' ),
@@ -56,24 +56,24 @@ load_theme_textdomain( 'anchro', get_template_directory() . '/languages' );
 
 function anchro_pagination($paged_navi = '',$pages=''){
 	$passtest = false;
-	
+
 	if($passtest){
 	posts_nav_link();
 	}
 	$range = 2;
-    $showitems = 3;  
+    $showitems = 3;
 
 	global $paged;
     if ( get_query_var('paged') ) {
-		$paged = get_query_var('paged'); 
+		$paged = get_query_var('paged');
 	} else if ( get_query_var('page') ) {
-		$paged = get_query_var('page'); 
+		$paged = get_query_var('page');
 	}else if ( $paged_navi!='' ) {
-		$paged = $paged_navi; 
+		$paged = $paged_navi;
 	} else {
-		$paged = 1; 
+		$paged = 1;
 	}
-	
+
 	if($paged<2) $range = 3;
 	if($paged==2) $range = 3;
 	if($pages == ''){
@@ -82,9 +82,9 @@ function anchro_pagination($paged_navi = '',$pages=''){
 		if(!$pages){
 			$pages = 1;
 		}
-	}   
+	}
 
-										
+
 	if(1 != $pages){
 	echo '<div class="blog-pagination">';
 	echo '<ul class="">';
@@ -101,13 +101,13 @@ function anchro_pagination($paged_navi = '',$pages=''){
 
 
 	 if ($paged < $pages){
-	 echo "<li><a href='".esc_url(get_pagenum_link($pages))."'><i class='fa fa-angle-double-right'></i></a></li> ";		 
+	 echo "<li><a href='".esc_url(get_pagenum_link($pages))."'><i class='fa fa-angle-double-right'></i></a></li> ";
 	 }else{
-	 echo "<li><a href='".esc_url(get_pagenum_link($pages))."'><i class='fa fa-angle-double-right'></i></a></li> ";	
+	 echo "<li><a href='".esc_url(get_pagenum_link($pages))."'><i class='fa fa-angle-double-right'></i></a></li> ";
 	 }
 	 echo "</ul>\n";
 	  echo '</div>';
-	 
+
 	}
 }
 
@@ -118,16 +118,16 @@ function anchro_pagination($paged_navi = '',$pages=''){
 add_filter('body_class','anchro_addinr_portfolio_class');
 function anchro_addinr_portfolio_class($classes) {
 	if ( isset( $post ) ) {
-	$classes[] = get_post_format();	
+	$classes[] = get_post_format();
 	}
 	if(is_page_template('template-one-page.php')){
-	
+
 	}
 	if(!anchro_option('search_top')){
-	$classes[] = 'searchtopno';  
+	$classes[] = 'searchtopno';
 	}
 	if(anchro_option('disable_two_col')){
-	$classes[] = 'disable_two_col';  
+	$classes[] = 'disable_two_col';
 	}
 	return $classes;
 }
@@ -166,6 +166,7 @@ function anchro_theme_setup() {
 
 add_action( 'add_meta_boxes', 'anchro_meta_box_add' );
 function anchro_meta_box_add(){
+  add_meta_box( 'anchro_meta-box-homepage', ' Template Options: ', 'anchro_meta_box_op', 'page', 'normal', 'high' );
 	add_meta_box( 'anchro_meta-box-one-page', ' Template Options: ', 'anchro_meta_box_op', 'page', 'normal', 'high' );
 	add_meta_box( 'anchro_meta-box-portfolio', ' Portfolio Options: ', 'anchro_meta_box_portfolio', 'portfolio', 'normal', 'high' );
 	add_meta_box( 'anchro_meta-box-portfolio', ' Post Options: ', 'anchro_meta_box_post', 'post', 'normal', 'high' );
@@ -175,20 +176,20 @@ function anchro_meta_box_op( $post ){
 	$desc_post = isset( $values['desc_post'] ) ? ( $values['desc_post'][0] ) : '';
 	$custom_bg = isset( $values['custom_bg'] ) ? ( $values['custom_bg'][0] ) : '';
 	$background_text = isset($values['background_text'])?($values['background_text'][0]):'';
-	
 
-	
+
+
     wp_nonce_field( 'anchro_my_meta_box_nonce', 'anchro_meta_box_nonce' );
 	?>
 	<div id="onepage_metabox">
-		
+
 		<h3><label for="background"><?php esc_html_e('Content in Main-Background:','anchro') ?> </label></h3>
-		<?php  
+		<?php
 		wp_editor( $background_text, 'background_text' );
 		?>
 	</div>
 	<div id="normalpage_metabox">
-		
+
 		<p>
 			<h3><label for="desc_post"><?php esc_html_e('Description(below title)','anchro') ?>: </label></h3>
 			<input  name="desc_post" id="desc_post" value="<?php echo esc_attr($desc_post) ?>"/>
@@ -207,7 +208,7 @@ function anchro_meta_box_portfolio( $post ){
 	$values = get_post_custom( $post->ID );
 	$desc_post = isset( $values['desc_post'] ) ? ( $values['desc_post'][0] ) : '';
 	$details = isset( $values['details'] ) ? ( $values['details'][0] ) : '';
-	
+
     wp_nonce_field( 'anchro_my_meta_box_nonce', 'anchro_meta_box_nonce' );
 	?>
 	<div id="portfolio_metabox" class="anchro_metabox">
@@ -215,11 +216,11 @@ function anchro_meta_box_portfolio( $post ){
 			<h3><label for="desc_post"><?php esc_html_e('Description','anchro') ?>: </label></h3>
 			<input  name="desc_post" id="desc_post" value="<?php echo esc_attr($desc_post) ?>"/>
 		</p>
-		
-		
-	
-		
-		
+
+
+
+
+
 	</div>
 
     <?php
@@ -227,10 +228,10 @@ function anchro_meta_box_portfolio( $post ){
 
 
 function anchro_meta_box_post( $post ){
-	$values = get_post_custom( $post->ID );	
+	$values = get_post_custom( $post->ID );
 	$subtitle_post = isset( $values['subtitle_post'] ) ? ( $values['subtitle_post'][0] ) : '';
 	$desc_post = isset( $values['desc_post'] ) ? ( $values['desc_post'][0] ) : '';
-	
+
     wp_nonce_field( 'anchro_my_meta_box_nonce', 'anchro_meta_box_nonce' );
 	?>
 	<div id="post_metabox">
@@ -242,7 +243,7 @@ function anchro_meta_box_post( $post ){
 			<h3><label for="subtitle_post"><?php esc_html_e('Subtitle Post(in post)','anchro') ?>: </label></h3>
 			<input  name="subtitle_post" id="subtitle_post" value="<?php echo esc_attr($subtitle_post) ?>"/>
 		</p>
-		
+
 	</div>
 
     <?php
@@ -258,12 +259,12 @@ function anchro_meta_box_save( $post_id ){
     if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
     if( !isset( $_POST['anchro_meta_box_nonce'] ) || !wp_verify_nonce( $_POST['anchro_meta_box_nonce'], 'anchro_my_meta_box_nonce' ) ) return;
     if(  ! current_user_can( 'edit_page', $post_id)) return;
-   
-		
+
+
 	if( isset( $_POST['background_text'] ) )
         update_post_meta( $post_id, 'background_text', $_POST['background_text'] );
-		
-		
+
+
 	if( isset( $_POST['details'] ) )
         update_post_meta( $post_id, 'details', $_POST['details'] );
 	if( isset( $_POST['subtitle_post'] ) )
@@ -272,7 +273,7 @@ function anchro_meta_box_save( $post_id ){
         update_post_meta( $post_id, 'desc_post', $_POST['desc_post'] );
 	if( isset( $_POST['custom_bg'] ) )
         update_post_meta( $post_id, 'custom_bg', $_POST['custom_bg'] );
-		
+
 }
 
 
@@ -291,7 +292,7 @@ add_action('admin_enqueue_scripts', 'anchro_admin_scripts');
 
 function anchro_OpenSans_fonts_url() {
     $font_url = '';
-    
+
     /*
     Translators: If there are characters in your language that are not supported
     by chosen font(s), translate this to 'off'. Do not translate into your own language.
@@ -308,7 +309,7 @@ function anchro_OpenSans_fonts_url() {
 
 /*-----------------------------------------------------------------------------------*/
 /*	Theme customize
-/*-----------------------------------------------------------------------------------*/ 
+/*-----------------------------------------------------------------------------------*/
 $anchro_argsa = array(
 	'flex-width'    => true,
 	'width'         => 980,
@@ -317,68 +318,68 @@ $anchro_argsa = array(
 	'default-image' => get_template_directory_uri() . '/assets/images/heading-bg.jpg',
 );
 add_theme_support( 'custom-header', $anchro_argsa );
-	
+
 
 
 function wpdocs_theme_add_editor_styles() {
     add_editor_style( 'custom-editor-style.css' );
 }
 add_action( 'admin_init', 'wpdocs_theme_add_editor_styles' );
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	Queue Scripts
-/*-----------------------------------------------------------------------------------*/ 
+/*-----------------------------------------------------------------------------------*/
 
 function anchro_scripts() {
 
 	//ENQUEUE CSS
-	
+
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css');
 	wp_enqueue_style( 'animate', get_template_directory_uri() . '/assets/css/animate.css');
 	wp_enqueue_style( 'jquery_ui', get_template_directory_uri() . '/assets/css/jquery-ui.css');
-	wp_enqueue_style( 'simple_line_icons', get_template_directory_uri() . '/assets/css/simple-line-icons.css');	
-	wp_enqueue_style( 'font_awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css');	
-	wp_enqueue_style( 'anchro', get_template_directory_uri() . '/assets/css/anchro.css');	
-	wp_enqueue_style( 'settings', get_template_directory_uri() . '/assets/rs-plugin/css/settings.css');	
-	wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css');	
-  
+	wp_enqueue_style( 'simple_line_icons', get_template_directory_uri() . '/assets/css/simple-line-icons.css');
+	wp_enqueue_style( 'font_awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css');
+	wp_enqueue_style( 'anchro', get_template_directory_uri() . '/assets/css/anchro.css');
+	wp_enqueue_style( 'settings', get_template_directory_uri() . '/assets/rs-plugin/css/settings.css');
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css');
+
 
 	wp_enqueue_style( 'anchro_fonts', anchro_OpenSans_fonts_url(), array(), '1.0.0' );
-	
-	
+
+
 	$custom_css =  (anchro_option('custom_css'));
-	
+
 	if(anchro_option('bg_404')){
 	$custom_css .= '.page-404{
     background:url('.anchro_option('bg_404').') no-repeat;
 	}
 	';
 	}
-	
-	
-	
+
+
+
 
     //some custom css
-	
-	
+
+
 	if(anchro_option('general_bg')){
 		$custom_css .= 'section.heading-page{
 			background-image: url('.esc_url(anchro_option('general_bg')).');
 		}';
 	}
-	
+
 	if(anchro_option('general_bg_color')){
 		$custom_css .= 'section.heading-page{
 			background-color: '.esc_attr(anchro_option('general_bg_color')).';
 		}';
 	}
-		
-	
+
+
 	if(anchro_option('banner_image')){
 	$custom_css .= 'section.second-call-to-action{
 	    background-image: url('.esc_url(anchro_option('banner_image')).');
@@ -394,80 +395,80 @@ function anchro_scripts() {
 	    background-image: url('.esc_url(anchro_option('logo_imgb')).');
 	}';
 	}
-	
-	wp_add_inline_style( 'style', $custom_css );
+
+	//wp_add_inline_style( 'style', $custom_css );
 	//include  get_template_directory() . '/css/custom.css.php';
 	//wp_add_inline_style( 'style', $custom_css2 );
-	
-	
+
+
 	if(anchro_option('apply_custom_colors')){
 		include   get_template_directory() . '/assets/css/color.css.php';
 		wp_add_inline_style( 'style', $custom_color );
-		
+
 	}
-	
-	
+
+
 	//ENQUEUE JAVSCRIPTS
-	
-	
-	
+
+
+
 	wp_enqueue_script('bootstrap_js', get_template_directory_uri().'/assets/js/bootstrap.min.js', array('jquery'), '', true);
-	
+
 	if(is_page_template('template-one-page.php')){
 	wp_enqueue_script('rs_plugin_js', get_template_directory_uri().'/assets/rs-plugin/js/jquery.themepunch.tools.min.js', array('jquery'), '', true);
-	
+
 	wp_enqueue_script('rs_plugin2_js', get_template_directory_uri().'/assets/rs-plugin/js/jquery.themepunch.revolution.min.js', array('jquery'), '', true);
 	}
 	wp_enqueue_script('plugins_js', get_template_directory_uri().'/assets/js/plugins.js', array('jquery'), '', true);
 	wp_enqueue_script('custom_js',get_template_directory_uri().'/assets/js/custom.js',array('plugins_js'), '', true);
-	
+
 	if(anchro_has_shortcode('google_map')){
 	wp_enqueue_script('map_api', 'http://maps.google.com/maps/api/js?sensor=true', array(), '', true);
 	wp_enqueue_script('google_mapb', get_template_directory_uri().'/assets/js/jquery.gmap3.min.js', array(), '', true);
 	}
-	
+
 	//INSERT JAVSCRIPT VARS
-	
+
 	wp_localize_script( 'jquery', 'anchro_templateUrl', get_template_directory_uri() );
 	wp_localize_script( 'jquery', 'anchro_ajaxurl', admin_url( 'admin-ajax.php' ) );
-	
+
 }
 add_action( 'wp_enqueue_scripts', 'anchro_scripts' );
 
 
 function anchro_has_shortcode($shortcode = '') {
-     
+
     $post_to_check = get_post(get_the_ID());
      if(isset($post_to_check)){
     // false because we have to search through the post content first
     $found = false;
-     
+
     // if no short code was provided, return false
     if (!$shortcode) {
         return $found;
     }
-	
+
     // check the post content for the short code
-	
+
 		if ( stripos($post_to_check->post_content, '[' . $shortcode) !== false ) {
 			// we have found the short code
 			$found = true;
 		}
-		
+
 		if ( stripos($post_to_check->post_content, '[' . 'vc_row') !== false ) {
 			// we have found the short code
 			$found = true;
 		}
-		
-	
-     
+
+
+
     // return our final results
     return $found;
 	}
 }
 
 
-	
+
 
 
 function anchro_add_image_sizes() {
@@ -487,15 +488,15 @@ add_action('init', 'anchro_add_image_sizes');
 
 function anchro_comment($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment;
-	extract($args, EXTR_SKIP);	
+	extract($args, EXTR_SKIP);
 	$ti_avatar = '';
 	if(!get_avatar( $comment, 80 )){
 	 $ti_avatar = 'is-no-coment';
 	}
-	
+
 ?>
 <li class="first-comment">
-	<?php 	
+	<?php
 	$ti_avatar = "no-avatar";
 	if(get_avatar( $comment, 80 )){
 	echo get_avatar( $comment, 80 );
@@ -642,14 +643,14 @@ add_action( 'after_setup_theme', 'anchro_slug_setup' );
 /* wrap for menu */
 function anchro_nav_wrap() {
   // default value of 'items_wrap' is <ul id="%1$s" class="%2$s">%3$s</ul>'
-  
+
   // open the <ul>, set 'menu_class' and 'menu_id' values
   $wrap  = '<ul id="%1$s" class="%2$s">';
-  
+
   // get nav items as configured in /wp-admin/
   $wrap .= '%3$s';
-  
-  
+
+
   if(anchro_option('search_top')){
   $wrap .= '<li>
 				<p><a href="#" id="example-show" class="showLink" ><i class="fa fa-search"></i></a></p>
@@ -657,16 +658,16 @@ function anchro_nav_wrap() {
 					<form method="get" id="blog-search" class="blog-search">
 						<input type="text" class="blog-search-field" name="s" placeholder="'.esc_attr(anchro_option('search_top_label')).'" value="">
 					</form>
-					<p><a href="#" id="example-hide" class="hideLink" 
+					<p><a href="#" id="example-hide" class="hideLink"
 					><i class="
 					fa fa-close"></i></a></p>
 				</div>
 			</li>';
 	}
-  
+
   // close the <ul>
   $wrap .= '</ul>';
-  
+
   // return the result
   return $wrap;
 }
@@ -685,7 +686,7 @@ function anchro_plugin_activation() {
 
 	$plugins = array(
 		array(
-			'name'     => esc_html__('ShortcodesDex', 'anchro'),			
+			'name'     => esc_html__('ShortcodesDex', 'anchro'),
 			'slug'     => 'shortcodesdex',
 			'source'   				=> get_template_directory() . '/include/libs/shortcodesdex.zip',
 			'required' 				=> true, // If false, the plugin is only 'recommended' instead of required
@@ -703,17 +704,16 @@ function anchro_plugin_activation() {
 		),array(
             'name'               => esc_html__('Visual composer', 'anchro'),
             'slug'               => 'js_composer',
-            'source'             => get_template_directory() . '/include/libs/js_composer.zip', 
+            'source'             => get_template_directory() . '/include/libs/js_composer.zip',
             'required'           => true,
         ),
 	);
 
 
 	$config = array(
-        'domain'            => 'anchro',           // Text domain - likely want to be the same as your theme.        
+        'domain'            => 'anchro',           // Text domain - likely want to be the same as your theme.
     );
 
 	tgmpa($plugins, $config);
 }
 add_action('tgmpa_register', 'anchro_plugin_activation');
-

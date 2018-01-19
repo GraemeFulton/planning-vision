@@ -1,10 +1,8 @@
 <header class="site-header">
 					<div id="main-header" class="main-header header-sticky">
 						<div class="inner-header container clearfix">
-												
-							<div class="logo2">
-								<a href="<?php echo esc_url(home_url('/')) ?>"><img class="logoImg" src="http://planning.vision/wp-content/uploads/images/logo1.png"/></a>
-							</div>
+
+								<a class="pull-left" href="<?php echo esc_url(home_url('/')) ?>"><img class="logoImg" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"/></a>
 							<div class="header-right-toggle pull-right">
 								<a href="javascript:void(0)" class="side-menu-button"><i class="fa fa-bars"></i></a>
 							</div>
@@ -21,7 +19,7 @@
 									'walker'            => new wp_bootstrap_navwalker(),
 									'items_wrap' => anchro_nav_wrap()
 								);
-								wp_nav_menu( $anchro_nav_args );							
+								wp_nav_menu( $anchro_nav_args );
 							}else{
 								$anchro_nav_args = array(
 									'theme_location' => 'main-menu',
@@ -40,12 +38,3 @@
 						</div>
 					</div>
 				</header>
-				
-				
-				
-				
-				
-				
-				
-				
-				

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
  get_header();
 
@@ -12,7 +12,7 @@
 		$anchro_desc_post = "";
 		if(get_post_meta( $post->ID, 'desc_post', true )!= ''){
 		$anchro_desc_post = get_post_meta( $post->ID, 'desc_post', true );
-		}		
+		}
 
  ?>
  <section class="heading-page">
@@ -29,27 +29,26 @@
 </section>
 
 <section class="project-page">
-	<div class="container">	
+	<div class="container">
 		<div class="blog-item-excerpt body-post">
 		<?php the_content() ?>
-		
-		
-		<?php 
+
+
+		<?php
 		wp_link_pages( array(
 			'before'      => '<div class="pagination"><div class="navigate-page"><span class="page-links-title">' . esc_html__( 'Pages:', 'anchro' ) . '</span>',
 			'after'       => '</div></div>',
 			'link_before' => '<span>',
 			'link_after'  => '</span>',
 		) );
-		?>	
+		?>
 		</div>
 	</div>
 </section>
 
-				
+
 <?php if(anchro_option('banner_in_portfolio')){showCallAction();} ?>
 
 <?php endwhile; ?>
- <?php endif; ?> 
+ <?php endif; ?>
  <?php get_footer() ?>
-
